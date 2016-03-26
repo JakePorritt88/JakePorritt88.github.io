@@ -1,0 +1,5 @@
+@mixin background($imgpath, $size: cover, $position: center) {
+	background: url($imgpath);
+	background-size: $size;
+	background-position: $position;
+}
